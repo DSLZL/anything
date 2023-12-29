@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 120.211.171.140
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1703769715446
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1703827718303
+  login: 1703824598410
+money: '390.76210021972656'
+last-account-name: lishuoning
+lastlocation:
+  world: 65bb9d69-d31f-46f8-8cbb-8c48e677b050
+  world-name: world
+  x: 8532.785243082923
+  y: -51.0
+  z: 97.4607142757501
+  yaw: -72.45030975341797
+  pitch: 1.1999131441116333
+logoutlocation:
+  world: 65bb9d69-d31f-46f8-8cbb-8c48e677b050
+  world-name: world
+  x: 11418.67387294242
+  y: 64.0000001
+  z: 207.12815005963094
+  yaw: 175.3446807861328
+  pitch: 28.499780654907227
+geolocation: 中国
+mail:
+- legacy: false
+  read: false
+  message: '666'
+  sender-name: DSLZL
+  sender-uuid: 6f0db270-ed9c-4b12-8689-f9f79958ca18
+  timestamp: 1703323451510
+  expire: 0

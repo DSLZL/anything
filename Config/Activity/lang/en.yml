@@ -1,0 +1,29 @@
+player-help:
+  - "&aPlugin help"
+  - "&a /activity Plugin help"
+  - "&a /activity open Open the GUI bonus screen!"
+admin-help:
+  - "&aAdministrator plug-in help"
+  - "&a /activity Plugin help"
+  - "&a /activity open open Open the GUI bonus screen!"
+  - "&a /activity reload Reload the plugin"
+no—time: "&aThe time has passed or the time has not yet arrived!"
+no-reward: "&aYou've already claimed it!"
+reload: "&aThe plugin has been overloaded!"
+gratis: "&7You get it for free %reward%"
+money: "&aYou have spent %money% coins to receive %reward%."
+no-money: "&aYou don't have enough %money% coins to claim %reward%."
+points: "&aYou have spent %points% bonds to receive %reward%."
+no-points: "&aYou don't have enough %points% bonds to receive %reward%."
+no-error: "&aThere is an error in the configuration, please check the configuration."
+no-join: "&7You do not have activity.join permissions, please contact the administrator!"
+is: 'Enabled'
+no_is: 'Not enabled'
+info:
+  - '-----------------------------'
+  - '&eThe plug-in name: %plugin_name%'
+  - "&eauthor: %author%"
+  - '&eversion: %version%'
+  - '&eVault: %is_vault%'
+  - '&ePoints: %is_Points%'
+  - '-----------------------------'

@@ -1,0 +1,116 @@
+texture: 300c817432585fadcbd9ca8cfedfeedbce5851b7c07d1b073fb52fa8283e8f23
+name: '&3Cyan LuckyBlock'
+lore:
+- '&7Place me :D'
+eco: true
+shop: true
+price: 250
+animation: true
+animation_type: MOBSPAWNER_FLAMES
+craft:
+  default: true
+  custom: false
+drop:
+  '0':
+  - 'ITEM : STONE_SWORD : 1 : 0'
+  '1':
+  - 'ENTITY : WITHER_SKULL : 3'
+  '2':
+  - 'ENTITY : SQUID : 1'
+  '3':
+  - 'ITEM : RED_TULIP : 32 : 0'
+  - 'LUCKY_BLOCK_ITEM : RED : 2'
+  '4':
+  - 'ITEM : LIGHT_BLUE_TERRACOTTA : 8 : 0'
+  '5':
+  - 'SPECIAL : WATER_BUCKET : 64'
+  - 'ENTITY : WANDERING_TRADER : 4'
+  - 'ITEM : CRIMSON_STEM : 8 : 0'
+  - 'ENTITY : OCELOT : 2'
+  '6':
+  - 'LUCKY_BLOCK_ITEM : ICED : 2'
+  - 'ITEM : GOLDEN_CARROT : 62 : 0'
+  - 'ITEM : RED_GLAZED_TERRACOTTA : 16 : 0'
+  '7':
+  - 'ITEM : DARK_OAK_BUTTON : 32 : 0'
+  '8':
+  - 'ITEM : CANDLE : 32 : 0'
+  - 'ITEM : RAW_COPPER_BLOCK : 8 : 0'
+  '9':
+  - 'ITEM : BREWING_STAND : 64 : 0'
+  - 'ENTITY : SNOWMAN : 1'
+  '10':
+  - 'ITEM : TRADER_LLAMA_SPAWN_EGG : 20 : 0'
+  - 'ITEM : GOLDEN_LEGGINGS : 1 : 0'
+  - 'ENTITY : MUSHROOM_COW : 3'
+  - 'LUCKY_BLOCK_ITEM : PURPLE : 2'
+  '11':
+  - 'ITEM : QUARTZ_SLAB : 8 : 0'
+  - 'LUCKY_BLOCK_ITEM : LIGHT_GRAY : 4'
+  - 'SPECIAL : PIG : 5'
+  '12':
+  - 'SPECIAL : TNT_EXPLOSION : 20'
+  '13':
+  - 'ITEM : MOSSY_STONE_BRICK_WALL : 64 : 0'
+  - 'ITEM : STRIPPED_CHERRY_WOOD : 32 : 0'
+  - 'ITEM : DEAD_FIRE_CORAL : 16 : 0'
+  - 'LUCKY_BLOCK_ITEM : RANDOM : 1'
+  '14':
+  - 'ENTITY : CAT : 1'
+  - 'SPECIAL : PIG : 10'
+  - 'ITEM : LEATHER_CHESTPLATE : 1 : 0'
+  - 'SPECIAL : EXPERIENCE_EXPLOSION : 45'
+  '15':
+  - 'ITEM : CUT_SANDSTONE : 8 : 0'
+  - 'ENTITY : BLOCK_DISPLAY : 4'
+  - 'ENTITY : SILVERFISH : 3'
+  - 'SPECIAL : WATER_BUCKET : 64'
+  '16':
+  - 'LUCKY_BLOCK_ITEM : LIGHT_GRAY : 2'
+  - 'ITEM : MANGROVE_SIGN : 16 : 0'
+  - 'ITEM : DARK_OAK_WOOD : 64 : 0'
+  '17':
+  - 'LUCKY_BLOCK_ITEM : WHITE : 4'
+  - 'ITEM : OAK_TRAPDOOR : 64 : 0'
+  - 'ITEM : PURPLE_TERRACOTTA : 32 : 0'
+  '18':
+  - 'ITEM : WANDERING_TRADER_SPAWN_EGG : 18 : 0'
+  - 'ITEM : POWERED_RAIL : 8 : 0'
+  - 'ENTITY : ENDERMAN : 2'
+  '19':
+  - 'LUCKY_BLOCK_ITEM : RED : 3'
+  - 'SPECIAL : LIGHTNING : 3'
+  - 'ENTITY : SNOWBALL : 1'
+  '20':
+  - 'ENTITY : LLAMA : 3'
+  '21':
+  - 'LUCKY_BLOCK_ITEM : ICED : 4'
+  - 'ENTITY : SKELETON_HORSE : 3'
+  '22':
+  - 'SPECIAL : WATER_BUCKET : 64'
+  - 'ITEM : GRINDSTONE : 16 : 0'
+  - 'SPECIAL : EXPERIENCE_EXPLOSION : 45'
+  '23':
+  - 'ITEM : POLISHED_BLACKSTONE_BUTTON : 8 : 0'
+  - 'ITEM : LIGHT_GRAY_SHULKER_BOX : 1 : 0'
+  - 'ENTITY : TADPOLE : 3'
+  '24':
+  - 'ITEM : PEONY : 16 : 0'
+  '25':
+  - 'ITEM : FIRE_CHARGE : 51 : 0'
+  - 'ENTITY : LEASH_HITCH : 1'
+  '26':
+  - 'ENTITY : WIND_CHARGE : 1'
+  '27':
+  - 'ENTITY : TROPICAL_FISH : 1'
+  - 'ENTITY : HORSE : 1'
+  - 'ENTITY : MINECART_TNT : 3'
+  '28':
+  - 'ENTITY : EGG : 4'
+  '29':
+  - 'ITEM : WAXED_COPPER_TRAPDOOR : 16 : 0'
+  - 'ITEM : MANGROVE_WOOD : 64 : 0'
+  '30':
+  - 'ENTITY : EVOKER_FANGS : 2'
+  - 'SPECIAL : LIGHTNING : 3'
+  - 'LUCKY_BLOCK_ITEM : MAGENTA : 1'

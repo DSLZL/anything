@@ -1,0 +1,12 @@
+upgrade: teleportation
+recipeType: SHAPED
+ingredients:
+  '0': END_STONE
+  '1': ENDER_PEARL
+  '2': END_STONE
+  '3': ENDER_PEARL
+  '4': DIAMOND_SWORD
+  '5': ENDER_PEARL
+  '6': END_STONE
+  '7': ENDER_PEARL
+  '8': END_STONE

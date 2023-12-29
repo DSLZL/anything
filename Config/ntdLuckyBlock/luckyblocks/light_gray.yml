@@ -1,0 +1,78 @@
+texture: d019fe633a45fc3d353f9a2f09fd88e721de31c2bc969ae0aeeadf57c1be0bcc
+name: '&7Light gray LuckyBlock'
+lore:
+- '&7Place me :D'
+eco: true
+shop: true
+price: 250
+animation: true
+animation_type: MOBSPAWNER_FLAMES
+craft:
+  default: true
+  custom: false
+drop:
+  '0':
+  - 'ITEM : NETHERITE_SCRAP : 51 : 0'
+  '1':
+  - 'ITEM : OXIDIZED_COPPER_GRATE : 64 : 0'
+  - 'ITEM : MUD_BRICK_SLAB : 32 : 0'
+  - 'LUCKY_BLOCK_ITEM : LIGHT_BLUE : 4'
+  '2':
+  - 'ENTITY : GLOW_ITEM_FRAME : 3'
+  - 'ITEM : PORKCHOP : 3 : 0'
+  - 'ENTITY : GLOW_SQUID : 1'
+  '3':
+  - 'ITEM : NETHERITE_SCRAP : 10 : 0'
+  - 'ENTITY : ARROW : 4'
+  - 'ITEM : PINK_BANNER : 16 : 0'
+  - 'LUCKY_BLOCK_ITEM : BLACK : 1'
+  '4':
+  - 'ENTITY : EXPERIENCE_ORB : 1'
+  - 'ITEM : PINK_GLAZED_TERRACOTTA : 64 : 0'
+  - 'SPECIAL : TNT_COLUMN : 5'
+  '5':
+  - 'ENTITY : BLAZE : 4'
+  - 'ITEM : WARPED_PRESSURE_PLATE : 16 : 0'
+  - 'ITEM : AMETHYST_CLUSTER : 16 : 0'
+  '6':
+  - 'ENTITY : BLOCK_DISPLAY : 2'
+  '7':
+  - 'ITEM : YELLOW_CARPET : 8 : 0'
+  '8':
+  - 'LUCKY_BLOCK_ITEM : PINK : 2'
+  '9':
+  - 'ITEM : SPAWNER : 64 : 0'
+  '10':
+  - 'LUCKY_BLOCK_ITEM : YELLOW : 4'
+  '11':
+  - 'LUCKY_BLOCK_ITEM : WHITE : 2'
+  - 'ENTITY : TROPICAL_FISH : 2'
+  - 'ENTITY : WITHER : 2'
+  '12':
+  - 'SPECIAL : EXPERIENCE_EXPLOSION : 45'
+  '13':
+  - 'ENTITY : HUSK : 4'
+  - 'ENTITY : ENDERMITE : 3'
+  - 'LUCKY_BLOCK_ITEM : LIGHT_BLUE : 2'
+  - 'ENTITY : TRIDENT : 2'
+  '14':
+  - 'SPECIAL : WATER_BUCKET : 64'
+  - 'LUCKY_BLOCK_ITEM : RANDOM : 4'
+  '15':
+  - 'ITEM : OBSIDIAN : 8 : 0'
+  - 'LUCKY_BLOCK_ITEM : BLACK : 2'
+  - 'ENTITY : SMALL_FIREBALL : 3'
+  '16':
+  - 'ITEM : CHISELED_DEEPSLATE : 64 : 0'
+  - 'SPECIAL : EXPERIENCE_EXPLOSION : 45'
+  '17':
+  - 'ITEM : STRIPPED_OAK_LOG : 64 : 0'
+  - 'LUCKY_BLOCK_ITEM : ICED : 3'
+  - 'ENTITY : SKELETON_HORSE : 1'
+  '18':
+  - 'ITEM : GRINDSTONE : 64 : 0'
+  - 'ENTITY : ALLAY : 4'
+  '19':
+  - 'ITEM : PURPLE_CARPET : 64 : 0'
+  - 'ITEM : CHICKEN_SPAWN_EGG : 61 : 0'
+  - 'ITEM : TORCHFLOWER_SEEDS : 7 : 0'

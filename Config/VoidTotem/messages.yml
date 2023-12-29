@@ -1,0 +1,58 @@
+prefix: '&8[&4VoidTotem&8] '
+plugin:
+  enable: Plugin successfully enabled.
+  disable: Plugin disabled.
+  up_to_date: Your version of this plugin is up to date!
+  outdated: |-
+    There's a new version available for this plugin: %version%
+    You can download it from: %url%
+config:
+  search:
+    platform:
+      block_not_found: The block "%block%" does not exist (search platform). The fallback
+        is "minecraft:cobblestone".
+      not_a_block: The material "%block%" is not a solid block (search platform).
+        The fallback is "minecraft:cobblestone".
+  advancement:
+    invalid_key: Invalid advancement key "%key%"
+    not_found: There's no advancement with the key "%key%"
+  potion_effect_not_found: There's no potion effect with the id "%id%"
+  recipe:
+    result_item:
+      not_found: The result item "%item%" does not exist.
+      invalid_count: The count of the result item has to be between %limit_down% and
+        %limit_up%.
+      invalid_nbt: Can't read result item nbt string.
+    shapeless_ingredients_invalid_count: You specified an invalid amount of ingredients.
+    shaped:
+      ingredient_rows_invalid_count: You specified an invalid amount of ingredient
+        rows.
+      ingredients_invalid_count: Row %row% has an invalid amount of ingredients.
+    ingredient_item_invalid: The ingredient item "%item%" does not exist.
+old_recipe_not_removed: The old recipe could not be removed. If you changed the recipe,
+  please restart the server for the changed to take affect.
+error: '%prefix%&cAn error occured. Check the console for details.'
+syntax: '%prefix%&cSyntax error! Please use &7/%syntax%&c.'
+no_permission: '%prefix%&cYou do not have enough permissions to perform this action.'
+player_not_found: '%prefix%&cThere''s no player with the name &7%name%&c.'
+reload:
+  mistakes: '%prefix%&6You made some mistakes in the config, check the console for
+    details.'
+  success: '%prefix%&7Config was reloaded.'
+giveitem:
+  item_not_valid: '%prefix%&cThe result item in the config is not valid.'
+  self:
+    no_empty_slot: '%prefix%&cYou have no empty slot in your inventory.'
+    success: '%prefix%&7A void totem item was given to you.'
+  others:
+    no_empty_slot: '%prefix%&7%player% &chas no empty slot in your inventory.'
+    success: '%prefix%&7A void totem item was given to &6%player%&7.'
+platform_hologram:
+  wait_for_player: |-
+    &c! Attention !
+    §6This platform is only temporary.
+    §6It will be destroyed once you leave it.
+  delay: |-
+    &c! Attention !
+    §6This platform is only temporary.
+    §6It will be destroyed in &c%time% &6seconds.

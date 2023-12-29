@@ -1,0 +1,42 @@
+# use-player-heads-in-menu: Use player heads or normal heads in the menu
+# # blocks-to-check: The blocks which will be checked when the menu is opened
+# # hide-plugin-name: Hides the plugin's name in every message (errors, successes) and menus
+# # warn-message-public: The warn message sent in the chat when someone is publicly warned
+# # warn-message-private: The warn message sent to a player when they are privately warned
+# # plugin-name-color: The color the plugin's name will have in the chat whenever it sends a message
+# # messages-success-color: The color the plugin's success message will have whenever it is sent
+# # messages-error-color: The color the plugin's error message will have whenever it is sent
+
+use-player-heads-in-menu: true
+hide-plugin-name: false
+warn-message-public: '%s has been warned by %s!'
+warn-message-private: You have been warned by %s!
+plugin-name-color: §a
+messages-success-color: §d
+messages-error-color: §c
+blocks-to-check:
+- ANCIENT_DEBRIS
+- DIAMOND_ORE
+- DEEPSLATE_DIAMOND_ORE
+IdOres: diamond_ore,gold_ore
+MessageSolo: Le joueur %PLAYER% a miné %TOPLUCK% de %BLOCK%.
+OfflineMessage: Le joueur %PLAYER% n'est pas connecté actuellement.
+PrivateWarnMessage: Vous avez été avertit en raison d'un trop grand nombre de minerais
+  minés.
+PublicWarnMessage: Attention, %PLAYER%, votre chance sembre très suspecte !
+PluginReloaded: Configuration rechargée.
+UseDatabase: 'false'
+DatabaseHost: 127.0.0.1
+DatabasePort: '3306'
+DatabaseUser: user
+DatabasePassword: password
+DatabaseName: topluck
+Teleport: Se téléporter
+SeeInventory: Voir l'inventaire
+SeeEnderchest: Voir l'enderchest
+PrivateWarn: Avertir discrètement le joueur
+PublicWarn: Avertir publiquement le joueur
+TotalMined: Total Miné
+PercentageMined: Pourcentage Miné
+NextPage: Page suivante
+PreviousPage: Page précédante

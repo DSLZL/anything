@@ -1,0 +1,12 @@
+upgrade: auto_smelting
+recipeType: SHAPED
+ingredients:
+  '0': LAVA_BUCKET
+  '1': OBSIDIAN
+  '2': LAVA_BUCKET
+  '3': OBSIDIAN
+  '4': FURNACE
+  '5': OBSIDIAN
+  '6': LAVA_BUCKET
+  '7': OBSIDIAN
+  '8': LAVA_BUCKET

@@ -1,0 +1,34 @@
+tasks:
+  mining:
+    type: "blockbreak"   
+    amount: 1000
+        
+display:
+  name: "better and better"
+  lore-normal:
+    - "&c更大更好更强!"
+    - "&7 - 破坏 &f1000 远古残骸"
+    - ""
+    - "&7奖励:头衔[合金装备]"
+  lore-started:
+    - ""
+    - "&7你现在的任务进度:"
+    - "&7 - &f{mining:progress}&7/1000 已破坏."
+  type: "ANCIENT_DEBRIS"
+
+rewards:
+  - "prefix Metal_Gear_Solid {player}"
+ 
+options:
+  # This is the category for the quest, it will appear under the "examples" category. Categories can be disabled.
+  category: "Prefixs Quests"
+  # Set if the quest can be repeated after being completed for the first time.
+  repeatable: false
+  # Define the cooldown on quests. The above (repeatable) must be true for this to take effect.
+  cooldown:
+    # If true, players will have to wait between repeating quests.
+    enabled: false
+    # Time (in minutes)
+    time: 1440
+  # This is the relative position in the GUI
+  sort-order: 1

@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 112.38.70.177
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1703764183371
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1703770546468
+  login: 1703770512015
+money: '50.0'
+last-account-name: Ruear_Xiao_Guai
+lastlocation:
+  world: 65bb9d69-d31f-46f8-8cbb-8c48e677b050
+  world-name: world
+  x: 15427.964435255302
+  y: 69.0
+  z: -173.30000001192093
+  yaw: 84.59332275390625
+  pitch: 16.49999237060547
+geolocation: 临沂, 山东省, 中国
+logoutlocation:
+  world: 65bb9d69-d31f-46f8-8cbb-8c48e677b050
+  world-name: world
+  x: 16155.813789637703
+  y: 64.0
+  z: -707.5549302588485
+  yaw: -102.90003967285156
+  pitch: 32.999996185302734

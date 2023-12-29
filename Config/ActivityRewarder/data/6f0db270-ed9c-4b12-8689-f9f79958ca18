@@ -1,0 +1,16 @@
+name: DSLZL
+minutes-played: 1415
+daily-rewards:
+  day-num: 1
+  streak-length: 3
+  highest-streak: 3
+  start-date: 28-12-2023
+  collected-dates:
+  - 28-12-2023
+  last-collected-date: 28-12-2023
+daily-playtime-goals:
+  date: 28-12-2023
+  last-collected-playtime: 1395
+  previous-day-end: 1035
+global-playtime-goals:
+  last-collected-playtime: 615

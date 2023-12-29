@@ -1,0 +1,146 @@
+#
+# Configuration file for the SpentTime plugin.
+#
+# If you have a problem with plugin configuration, please create an issue on the project's github.
+# However, if you like the plugin, leave a star for the project on GitHub.
+# 
+# Support site: https://github.com/imDMK/SpentTime/issues/new/choose
+# GitHub: https://github.com/imDMK/SpentTime
+#
+# Check for plugin update after the administrator join to server?
+checkForUpdate: true
+# Specifies how often the player's spent time should be saved in the database
+# Including a spent time top update
+# Recommended value: 10m
+spentTimeSaveDelay: 10m
+#
+# Gui settings
+#
+guiSettings:
+  # This determines how many players are to be displayed in the player top
+  # WARNING: Increasing this value may increase the consumption of database server resources
+  # Recommended value: 10
+  querySize: 10
+  # The type of gui
+  # Available types:
+  # DISABLED - The list of players will be sent in the chat
+  # STANDARD - Standard Gui that should be used when the player list does not exceed 10
+  # PAGINATED - A Gui with pages that allow you to move between pages through items
+  # SCROLLING - A Gui that allows you to scroll through items
+  type: STANDARD
+  # The title of spent time gui
+  title: "<red>Top spent time<dark_gray>:"
+  #
+  # Gui item settings
+  #
+  guiItemSettings:
+    # The head item name
+    # {PLAYER} - The player name
+    # {POSITION} - The player position
+    # {TIME} - The player time
+    headName: "<!italic><red>{POSITION}. <gray>Player <red>{PLAYER}"
+    # The head item default lore
+    headLore:
+    - ""
+    - "<!italic><green>The player has spent <red>{TIME} <green>on the server<dark_gray>."
+    - ""
+    # The head item lore displayed when a player has permission to reset a player's spent time
+    headLoreAdmin:
+    - ""
+    - "<!italic><green>The player has spent <red>{TIME} <green>on the server<dark_gray>."
+    - ""
+    - "<!italic><red>Click {CLICK} <gray>to <red>reset {PLAYER} <gray>spent time."
+    # What type of button does the admin need to click to reset the player's spent time using the gui?
+    # When the admin clicks a different button than the set one, nothing will happen
+    # ClickTypes: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/event/inventory/ClickType.html
+    headClickType: SHIFT_RIGHT
+    # Include the item that is around the gui?
+    fillBorder: true
+    # The item that is around the gui
+    borderItem:
+      material: GRAY_STAINED_GLASS_PANE
+    # Exit item
+    # Set to -1 to disable
+    exitItemSlot: 49
+    exitItem:
+      material: ACACIA_BUTTON
+      item-meta:
+        display-name: <red>Quit
+    # Previous page item
+    # Set to -1 to disable
+    previousPageItemSlot: 46
+    previousPageItem:
+      material: ARROW
+      item-meta:
+        display-name: "<green>Previous page"
+    # Used when the player clicks on the previous page but there is no page
+    noPreviousPageItem:
+      material: BARRIER
+      item-meta:
+        display-name: "<red>There is no previous page"
+    # Next page item
+    # Set to -1 to disable
+    nextPageItemSlot: 52
+    nextPageItem:
+      material: ARROW
+      item-meta:
+        display-name: "<green>Next page"
+    # Used when the player clicks on the next page but there is no page
+    noNextPageItem:
+      material: BARRIER
+      item-meta:
+        display-name: "<red>There is no next page"
+#
+# Scrolling gui settings
+#
+scrollingGuiSettings:
+  # Specifies the direction in which the player list should move
+  # Available directions:
+  # HORIZONTAL - The items will be moving horizontally
+  # VERTICAL - The items list will be moving vertically
+  scrollType: VERTICAL
+#
+# Database settings
+#
+databaseSettings:
+  # Database mode
+  # Supported databases: SQLITE, MYSQL
+  databaseMode: SQLITE
+  hostname: localhost
+  database: database
+  username: root
+  password: ExamplePassword1101
+  port: 3306
+#
+# Notification settings
+#
+notificationSettings:
+  # {TIME} - The spent player time
+  playerSpentTime: "CHAT: <gray>You have spent <red>{TIME} <gray>on the server<dark_gray>."
+  # {PLAYER} - Target name
+  # {TIME} - Spent target time
+  targetSpentTime: "CHAT: <gray>Player <green>{PLAYER} has spent <red>{TIME} on the server<dark_gray>."
+  topSpentTimeIsEmpty: "CHAT: <red>The top spent time is empty<dark_gray>."
+  # Used when top spent time GUI is disabled
+  topSpentTimeListFirst: "CHAT: <green>Top 10 players who spent the most time on the server<dark_gray>:"
+  # Used when top spent time GUI is disabled
+  # {POSITION} - The player position
+  # PLAYER} - The player name
+  # {TIME} - The spent player time
+  topSpentTimeList: "CHAT: <dark_gray>- <green>{POSITION} Player {PLAYER}<dark_gray>: <red>{TIME}"
+  # {PLAYER} - The player name
+  targetSpentTimeHasBeenReset: "CHAT: <green>The player {PLAYER} spent time on the server has been reset<dark_gray>."
+  globalSpentTimeHasBeenReset: "CHAT: <green>Time spent on the server has been reset for all users<dark_gray>."
+  # {PLAYER} - The player name
+  # {TIME} - New spent player time
+  targetSpentTimeHasBeenSet: "CHAT: <green>The player {PLAYER} spent time has been set to {TIME}<dark_gray>."
+  # {PERMISSIONS} - Required permissions
+  missingPermissions: "CHAT: <red>Missing permissions: <dark_red>{PERMISSIONS}<dark_gray>."
+  playerNotFound: "CHAT: <red>Player not found<dark_gray>."
+  # {USAGE} - Correct usage of command
+  invalidUsage: "CHAT: <red>Invalid usage: <dark_red>{USAGE}<dark_gray>."
+  # Used when there is more than one option to use a command
+  invalidUsageFirst: "CHAT: <red>Invalid usage:"
+  # {USAGE} - Correct usage of command
+  # Used when there is more than one option to use a command
+  invalidUsageList: "CHAT: <dark_gray>- <red>{USAGE}"

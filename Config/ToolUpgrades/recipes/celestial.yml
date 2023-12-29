@@ -1,0 +1,12 @@
+upgrade: celestial
+recipeType: SHAPED
+ingredients:
+  '0': PHANTOM_MEMBRANE
+  '1': FEATHER
+  '2': PHANTOM_MEMBRANE
+  '3': FEATHER
+  '4': ELYTRA
+  '5': FEATHER
+  '6': PHANTOM_MEMBRANE
+  '7': FEATHER
+  '8': PHANTOM_MEMBRANE

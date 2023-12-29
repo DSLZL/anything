@@ -1,0 +1,4 @@
+mute_version_notification: false
+enable_autosave: true
+autosave_interval: 15
+visibility_distance: 20

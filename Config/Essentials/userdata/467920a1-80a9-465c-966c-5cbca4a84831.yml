@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 117.179.179.38
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1702909103378
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1703729152679
+  login: 1703728469427
+money: '0.0'
+last-account-name: liu_gug
+lastlocation:
+  world: 65bb9d69-d31f-46f8-8cbb-8c48e677b050
+  world-name: world
+  x: 336.5
+  y: 63.0
+  z: 448.5
+  yaw: 30.299972534179688
+  pitch: 3.4500155448913574
+geolocation: 中国
+logoutlocation:
+  world: 65bb9d69-d31f-46f8-8cbb-8c48e677b050
+  world-name: world
+  x: 697.0988166138358
+  y: -20.0
+  z: 815.701332490149
+  yaw: 89.4268798828125
+  pitch: 25.01263427734375

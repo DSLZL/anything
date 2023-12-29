@@ -1,0 +1,71 @@
+quest-progress:
+  example1:
+    started: false
+    started-date: 1703333235651
+    completed: true
+    completed-before: true
+    completion-date: 1703333235651
+    task-progress:
+      mining:
+        completed: false
+  example3:
+    started: false
+    started-date: 1703404206350
+    completed: true
+    completed-before: true
+    completion-date: 1703404206350
+    task-progress:
+      mining:
+        completed: false
+      building:
+        completed: false
+  example2:
+    started: false
+    started-date: 1703333319650
+    completed: true
+    completed-before: true
+    completion-date: 1703333319650
+    task-progress:
+      mining:
+        completed: false
+      building:
+        completed: false
+  example5:
+    started: false
+    started-date: 1703404471950
+    completed: true
+    completed-before: true
+    completion-date: 1703404471950
+    task-progress:
+      building:
+        completed: false
+  example4:
+    started: false
+    started-date: 1703404444200
+    completed: true
+    completed-before: true
+    completion-date: 1703404444200
+    task-progress:
+      mobkilling:
+        completed: false
+  prefix1:
+    started: false
+    started-date: 1703760780914
+    completed: true
+    completed-before: true
+    completion-date: 1703760780914
+    task-progress:
+      mining:
+        completed: false
+  prefix2:
+    started: true
+    started-date: 1703417735451
+    completed: false
+    completed-before: false
+    completion-date: 0
+    task-progress:
+      walking:
+        completed: false
+        progress: 10185
+      reading:
+        completed: false

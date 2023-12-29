@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 106.114.19.42
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1703170034450
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1703301492436
+  login: 1703300254581
+money: '0.0'
+last-account-name: suifengxc
+lastlocation:
+  world: 65bb9d69-d31f-46f8-8cbb-8c48e677b050
+  world-name: world
+  x: 2190.5
+  y: 66.0
+  z: -765.5
+  yaw: -104.549560546875
+  pitch: 0.0
+geolocation: 石家庄市, 河北省, 中国
+logoutlocation:
+  world: 65bb9d69-d31f-46f8-8cbb-8c48e677b050
+  world-name: world
+  x: 2191.7129851463474
+  y: -15.0
+  z: -773.5930540910879
+  yaw: 11.5494384765625
+  pitch: 8.400519371032715

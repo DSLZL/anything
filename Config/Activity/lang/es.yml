@@ -1,0 +1,29 @@
+player-help:
+  - "&aAyuda con plugins"
+  - "&a /activity Ayuda con plugins"
+  - "&a /activity open ¡Abra la interfaz de recompensas GUI!"
+admin-help:
+  - "&aAyuda del plugin admin"
+  - "&a /activity Ayuda con plugins"
+  - "&a /activity open ¡Abra la interfaz de recompensas GUI!"
+  - "&a /activity reload Cargar el plugin"
+no—time: "&7¡El tiempo ha pasado o el tiempo no ha llegado!"
+no-reward: "&7¡Ya lo has recibido!"
+gratis: "&7Lo obtienes gratis %reward%"
+reload: "&7El plugin ha sido sobrecargado!"
+money: "&7Has gastado %money% monedas reclamadas %reward%"
+no-money: "&7No tienes suficiente %money%  monedas para reclamar %reward%"
+points: "&7Has gastado  %points% puntos reclamados %reward%"
+no-points: "&7No tienes suficientes %points% cupones para reclamar %reward%"
+no-error: "&7Se ha producido un error en la configuración, por favor revise la configuración"
+no-join: "&7Usted no tiene permisos activity.join. Por favor, póngase en contacto con el administrador!"
+is: 'Habilitado'
+no_is: 'No habilitado'
+info:
+  - '-----------------------------'
+  - '&eEl nombre del plug-in: %plugin_name%'
+  - "&eautor: %author%"
+  - '&eVersión: %version%'
+  - '&eVault: %is_vault%'
+  - '&ePoints: %is_Points%'
+  - '-----------------------------'

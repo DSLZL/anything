@@ -1,0 +1,16 @@
+stats:
+  ==: us.teaminceptus.novaconomy.api.player.PlayerStatistics
+  player: b364861d-e88f-4f22-a2c5-596af3e88085
+  highest_balance: 0.0
+  products_purchased: 0
+  money_added: 0.0
+  total_withdrawn: 0.0
+  total_bounties_created: 0
+  total_bounties_had: 0
+  transaction_history: []
+  total_shares_purchased: 0
+  total_money_spent: 0.0
+won_auctions: !!set {}
+economies:
+  gold:
+    balance: 0.0

@@ -1,0 +1,21 @@
+quest-progress:
+  example1:
+    started: false
+    started-date: 1703765028464
+    completed: true
+    completed-before: true
+    completion-date: 1703765028464
+    task-progress:
+      mining:
+        completed: false
+  example2:
+    started: false
+    started-date: 1703768715563
+    completed: true
+    completed-before: true
+    completion-date: 1703768715563
+    task-progress:
+      mining:
+        completed: false
+      building:
+        completed: false

@@ -1,0 +1,12 @@
+upgrade: ender_mask
+recipeType: SHAPED
+ingredients:
+  '0': END_STONE
+  '1': END_STONE
+  '2': END_STONE
+  '3': END_STONE
+  '4': CARVED_PUMPKIN
+  '5': END_STONE
+  '6': END_STONE
+  '7': END_STONE
+  '8': END_STONE

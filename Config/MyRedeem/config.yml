@@ -1,0 +1,45 @@
+# You can add infinite numbers of codes. If you do not want a code to have a permission, do not enter anything after the "permission:".
+
+codes:
+  EXAMPLE1:
+    uses: 1
+    permission: myredeem.code.CODE1
+    commands:
+    - give %player% diamond 1
+  EXAMPLE2:
+    uses: 10
+    permission: myredeem.code.CODE2
+    commands:
+    - give %player% iron_ingot 64
+  EXAMPLE3:
+    uses: 20
+    permission: myredeem.code.CODE3
+    commands:
+    - give %player% gold_block 1
+    - give %player% emerald_block 1
+  EXAMPLE4:
+    uses: -1
+    permission: myredeem.code.CODE4
+    commands:
+    - give %player% emerald 64
+    - give %player% diamond 64
+  EXAMPLE5:
+    uses: -1
+    permission: myredeem.code.CODE5
+    commands:
+    - give %player% apple 1
+    - give %player% carrot 1
+    - effect %player% speed 60 2
+    expiration: '2023-12-11T17:43:55.136268300Z'
+  qwjTBYi8:
+    uses: 0
+    permission: myredeem.code.qwjTBYi8
+    commands:
+    - '1'
+    expiration: '2023-12-20T09:08:11.092484300Z'
+  Of9UUbb7:
+    uses: 9
+    permission: myredeem.code.Of9UUbb7
+    commands:
+    - '100'
+    expiration: '2023-12-29T09:10:21.978268500Z'

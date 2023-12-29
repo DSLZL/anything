@@ -1,0 +1,12 @@
+upgrade: fadeless
+recipeType: SHAPED
+ingredients:
+  '0': GLOWSTONE
+  '1': GOLD_INGOT
+  '2': GLOWSTONE
+  '3': GOLD_INGOT
+  '4': WITHER_SKELETON_SKULL
+  '5': GOLD_INGOT
+  '6': GLOWSTONE
+  '7': GOLD_INGOT
+  '8': GLOWSTONE

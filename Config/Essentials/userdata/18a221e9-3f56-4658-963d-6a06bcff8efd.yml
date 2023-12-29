@@ -1,0 +1,48 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 124.236.231.96
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1703167968671
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1703170112070
+  login: 1703167982063
+money: '0.0'
+last-account-name: Unstable_boron
+lastlocation:
+  world: 65bb9d69-d31f-46f8-8cbb-8c48e677b050
+  world-name: world
+  x: 2486.5114036452974
+  y: 99.5
+  z: -669.6848803273119
+  yaw: 79.1993408203125
+  pitch: 15.150046348571777
+logoutlocation:
+  world: 65bb9d69-d31f-46f8-8cbb-8c48e677b050
+  world-name: world
+  x: 2489.117486655819
+  y: 99.0
+  z: -668.6747981289682
+  yaw: 22.20086669921875
+  pitch: 13.950020790100098
+homes:
+  home:
+    world: 65bb9d69-d31f-46f8-8cbb-8c48e677b050
+    world-name: world
+    x: -1213.9373051483858
+    y: 70.0
+    z: -367.2067086443932
+    yaw: 178.92474365234375
+    pitch: 52.70512771606445
+geolocation: 石家庄市, 河北省, 中国

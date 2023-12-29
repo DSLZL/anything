@@ -1,0 +1,21 @@
+e07e81c2-0cf5-335f-9225-765f0af81755:
+  ==: us.teaminceptus.novaconomy.api.economy.Economy
+  symbol: $
+  increase-naturally: true
+  conversion-scale: 1.0
+  convertable: true
+  interest: false
+  clickable: true
+  name: gold
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3700
+    type: GOLD_INGOT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"gold","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"aqua","bold":false}]}'
+      custom-model-data: 1
+  custom-model-data: 1
+  id: e07e81c2-0cf5-335f-9225-765f0af81755
+last_saved_timestamp: 1702976836215

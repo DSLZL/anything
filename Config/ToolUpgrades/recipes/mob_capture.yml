@@ -1,0 +1,12 @@
+upgrade: mob_capture
+recipeType: SHAPED
+ingredients:
+  '0': COBWEB
+  '1': ROTTEN_FLESH
+  '2': COBWEB
+  '3': ROTTEN_FLESH
+  '4': BUCKET
+  '5': ROTTEN_FLESH
+  '6': COBWEB
+  '7': ROTTEN_FLESH
+  '8': COBWEB

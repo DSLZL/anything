@@ -1,0 +1,14 @@
+name: suifengxc
+minutes-played: 256
+daily-rewards:
+  day-num: 4
+  streak-length: 0
+  highest-streak: 0
+  start-date: 20-12-2023
+  collected-dates: []
+daily-playtime-goals:
+  date: 23-12-2023
+  last-collected-playtime: 195
+  previous-day-end: 195
+global-playtime-goals:
+  last-collected-playtime: 0

@@ -1,0 +1,29 @@
+player-help:
+  - "&aHulp bij plug-ins"
+  - "&a /activity Hulp bij plug-ins"
+  - "&a /activity open Open het GUI bonusscherm!"
+admin-help:
+  - "&aHelp bij beheerdersplug-ins"
+  - "&a /activity Hulp bij plug-ins"
+  - "&a /activity open Open het GUI bonusscherm!"
+  - "&a /activity reload Herlaad de plug-in"
+no—time: "&7De tijd is verstreken of de tijd is nog niet aangebroken!"
+no-reward: "&7Je hebt het al geclaimd!"
+gratis: "&7Je krijgt het gratis %reward%"
+reload: "&7De plugin is overbelast!！"
+money: "&7Je hebt %money% munten uitgegeven om %reward% te ontvangen"
+no-money: "&7Je hebt niet genoeg %money% munten om %reward% te claimen"
+points: "&7U hebt %points% obligaties uitgegeven om %reward% te ontvangen"
+no-points: "&7Je hebt niet genoeg %points% obligaties om %reward% te ontvangen"
+no-error: "&7Er is een fout in de configuratie, controleer de configuratie"
+no-join: "&7U hebt geen activity.join machtigingen, neem contact op met de beheerder!"
+is: 'Ingeschakeld'
+no_is: 'Niet ingeschakeld'
+info:
+  - '-----------------------------'
+  - '&eDe naam van de plug-in: %plugin_name%'
+  - "&eauteur: %author%"
+  - '&eVersie: %version%'
+  - '&eVault: %is_vault%'
+  - '&ePoints: %is_Points%'
+  - '-----------------------------'

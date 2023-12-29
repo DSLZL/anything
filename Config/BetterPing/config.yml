@@ -1,0 +1,10 @@
+personal-ping-message: "&a你的延迟是 &l%ping%&r&ams."
+others-ping-message: "&aThe ping of &l%u%&r&a is &l%ping%&r&ams."
+invalid-player: "&c找不到玩家."
+kick-high-ping:
+#reload/restart the server when you enable/disable the "kick system"
+  enabled: true
+  max-ping: 1000
+  kick-message: "&c你的延迟太高了，请检查你的网络连接 延迟: &l%ping%&r&cms"
+  interval-check-seconds: 300
+interval-ping-check-seconds: 5

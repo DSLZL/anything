@@ -1,0 +1,287 @@
+#######################################################
+#
+#      PlayerChannels
+#   "The ultimate chat solution"
+#
+# Having issues? Contact me on discord @ Perotin#3447
+
+
+# The following file is to give YOU the power to decorate the menus within PlayerChannels however you would like.
+
+# This file is sorted by section of items, some sections appear in menus with other sections. It is not by inventory.
+# NOTE: Only what appears in the default config can be configured. Do not try to add config keys where they do not already exist
+# For getting materials, use this: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+
+
+# Global items that will be used in multiple places:
+global-items:
+   deco-item:
+      display: " "
+      material: "BLACK_STAINED_GLASS_PANE"
+   next-item:
+      display: "&eNext >>"
+      material: "GREEN_STAINED_GLASS_PANE"
+   back-item:
+      display: "&e<< Back"
+      material: "RED_STAINED_GLASS_PANE"
+
+# Navigation-bar items
+# This is the row that appears at the top of most menus displaying things like player-profile, and create a chatroom
+nav-bar:
+   help-item:
+      slot: 0
+      display: "&eHelp?"
+      material: "FEATHER"
+      lore:
+         - "&7&oClick for for a quick guide!"
+   player-profile-head:
+      slot: 4
+      display: "&e$name$"
+      # Keep this as the material for a player head (may be different spelling based on minecraft version you are using)
+      material: "PLAYER_HEAD"
+      lore:
+         - "&7&oClick to view your profile!"
+   create-chatroom:
+      slot: 5
+      display: "&eCreate a chatroom"
+      material: "ANVIL"
+      lore:
+         - "&7&oClick to create a chatroom"
+   manage-invites:
+      slot: 8
+      material: "WRITABLE_BOOK"
+      display: "&eView invites"
+      lore:
+         - "&7&oClick to view your invites"
+   deco-item:
+      slots:
+        - "1"
+        - "2"
+        - "3"
+        - "6"
+        - "7"
+   # The following item is only shown to admins, keep the deco item here so that it will not show for normal players
+   admin-menu:
+      slot: 3
+      display: "&cAdmin Menu"
+      material: "LAVA_BUCKET"
+      lore:
+         - "&7&oClick for admin tools"
+# Paging navigation-bar
+# This is the row at the bottom of menus where you can click to view multiple pages
+paging-nav-bar:
+   deco-item:
+      slots:
+         - "1"
+         - "2"
+         - "3"
+         - "4"
+         - "5"
+         - "6"
+         - "7"
+   next-item:
+      slot: 8
+   back-item:
+      slot: 0
+
+# Creation Menu
+# This is the menu that appears when creating a new chatroom
+creation-menu:
+   display-name: "Create a chatroom:"
+   name:
+      display: "&eName:"
+      lore:
+         - "&7&oClick to set a name!"
+      material: "ANVIL"
+      # range is 0-2
+      slot: 2
+   description:
+      display: "&eDescription:"
+      lore:
+         - "&7&oClick to set the description!"
+      material: "INK_SAC"
+      slot: 4
+   status:
+      display: "&ePublic:"
+      lore:
+         - "&7&oClick to toggle public/private!"
+      material: "IRON_DOOR"
+      slot: 2
+   saved:
+      display: "&eSaved:"
+      lore:
+         - "&7&oClick to toggle whether this should be saved or not."
+      material: "ENDER_EYE"
+      slot: 4
+   create-button:
+      display: "&e&lClick to create!"
+      lore:
+         - ""
+      material: "EMERALD_BLOCK"
+      slot: 3
+
+# Chatroom ItemStacks
+# Essentially, the messages that appear when you hover over the representations of Chatrooms in the form of items.
+chatroom-items:
+   name: "&e&lName:&f $name$"
+   description: "&e&lDescription:&f $description$"
+   status: "&e&lStatus: $status$"
+   owner: "&e&lOwner:&f $owner$"
+   members: "&e&lMembers &e(&f$member_count$&e)"
+
+
+# Chatroom Bar Items
+# The items that appear directly underneath the navigation bar when on a chatroom GUI
+# (Page where you can join, leave, a chatroom etc.
+chatroom-bar:
+   description:
+      display: "&e&lDescription:&f"
+      material: "OAK_SIGN"
+      slot: 0
+      lore:
+         - "&7&oClick to change"
+   join-chatroom:
+      display: "&a&lJoin"
+      material: "EMERALD_BLOCK"
+      slot: 1
+   leave-chatroom:
+      display: "&c&lLeave"
+      material: "BARRIER"
+      slot: 1
+   in-chat:
+      display: "&e&lIn Chat:&f"
+      material: "NAME_TAG"
+      slot: 2
+      lore:
+         - "&7&oClick to send all messages in this channel"
+   nicknames:
+      display: "&e&lNicknames:"
+      material: "ARMOR_STAND"
+      slot: 3
+      lore:
+         - "&7&oClick to toggle"
+   status:
+      display: "&e&lStatus:"
+      material: "IRON_DOOR"
+      slot: 4
+      lore:
+         - "&7&oClick to make public or private"
+
+chatroom-bottom-bar:
+   nicknames:
+      display: "&e&lNicknames menu"
+      material: "NETHER_STAR"
+      slot: 0
+   listen:
+      display: "&e&lListen to $channel$'s chat: $status$"
+      material: "CLOCK"
+      slot: 1
+      lore:
+         - "&7&oClick to only receive incoming chat from this channel"
+   ban-menu:
+      display: "&e&lBans"
+      material: "ENDER_CHEST"
+      slot: 2
+
+
+# Chatroom Moderator actions
+# These are the items that moderators/owners will see when trying to punish a member
+chatroom-mod:
+   mute-item:
+      display: "&cMute "
+      material: "REDSTONE_BLOCK"
+      slot: 0
+   unmute-item:
+      display: "&aUnmute "
+      material: "EMERALD_BLOCK"
+      slot: 0
+   kick-item:
+      display: "&cKick "
+      material: "REDSTONE_BLOCK"
+      slot: 2
+   ban-item:
+      display: "&cBan "
+      material: "REDSTONE_BLOCK"
+      slot: 4
+   promote-member:
+      display: "&aPromote to Moderator"
+      material: "EMERALD_BLOCK"
+      slot: 2
+   promote-moderator:
+      display: "&aPromote to Owner"
+      material: "EMERALD_BLOCK"
+      slot: 3
+   demote-moderator:
+      display: "&cDemote to member"
+      material: "REDSTONE_BLOCK"
+      slot: 1
+
+# Main Menu
+# Menu that appears when you do /PlayerChannels
+main-menu:
+   bottom-row:
+      view-players:
+         material: "OAK_SIGN"
+         display: "&eView all players"
+         slot: 1
+
+# Player Profile Menu
+# Menu that appears when a player is selected from the player list menu or a
+# chatroom where the clicker is not a moderator or owner or if a player clicks their own profile
+player-profile-menu:
+   player-controls:
+      player-status:
+         material: "OAK_SIGN"
+         display: "&e&lStatus:&f"
+         slot: 0
+      toggle-invite-status:
+         material: "BOOKSHELF"
+         display: "&e&lToggle invites:"
+         slot: 2
+      invite-player:
+         material: "BOOK"
+         display: "&e&lInvite "
+         slot: 2
+
+# Invitiation menu items
+invitations-menu:
+   invite-item:
+      material: "BOOK"
+      display: "&e&lInvite from: "
+      lore:
+         - "&7&oRight click to &a&lACCEPT"
+         - "&7&oLeft click to &c&lREJECT"
+admin-menu:
+#   stop-plugin: --- Coming soon
+#      material: "REDSTONE_BLOCK"
+#      display: "&cStop the plugin"
+#      slot: 0
+   delete-chatroom:
+      material: "REDSTONE_BLOCK"
+      display: "&cDelete a Channel"
+      slot: 2
+   spy-chatroom:
+      material: "ENDER_EYE"
+      display: "&cSpy on a Channel"
+      slot: 4
+      lore:
+         - "&7- &e&lRIGHT&7 click to spy on a single channels"
+         - "&7- &e&lLEFT&7 click to spy on &e&lALL&7 channels"
+   reload-plugin:
+      material: "WRITABLE_BOOK"
+      display: "&cReload yaml files"
+      slot: 0
+   delete-chatroom-confirm:
+      material: "EMERALD_BLOCK"
+      display: "&aConfirm deletion"
+      lore:
+         - "&7Deleting $name$"
+      slot: 0
+   delete-chatroom-cancel:
+      material: "REDSTONE_BLOCK"
+      display: "&cCancel"
+      lore:
+         - "&7Click to cancel deletion"
+      slot: 2
+
+

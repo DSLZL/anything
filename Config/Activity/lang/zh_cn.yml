@@ -1,0 +1,29 @@
+player-help:
+  - "&a插件帮助"
+  - "&a /activity 插件帮助"
+  - "&a /activity open 打开GUI奖励界面!"
+admin-help:
+  - "&a管理员插件帮助"
+  - "&a /activity 插件帮助"
+  - "&a /activity open 打开GUI奖励界面!"
+  - "&a /activity reload 重载插件"
+no—time: "&7时间已过或者时间未到！"
+no-reward: "&7你已领取过了！"
+reload: "&7插件已重载！"
+gratis: "&7你免费领取 %reward%"
+money: "&7你已消费 %money% 金币领取 %reward%"
+no-money: "&7你没有足够 %money% 金币领取 %reward%"
+points: "&7你已消费 %points% 点券领取 %reward%"
+no-points: "&7你没有足够 %points% 点券领取 %reward%"
+no-error: "&7配置出现错误，请检查配置"
+no-join: "&7你没有activity.join权限，请联系管理员！"
+is: '已启用'
+no_is: '未启用'
+info:
+  - '-----------------------------'
+  - '&e插件名: %plugin_name%'
+  - "&e作者: %author%"
+  - '&e版本: %version%'
+  - '&eVault: %is_vault%'
+  - '&ePoints: %is_Points%'
+  - '-----------------------------'

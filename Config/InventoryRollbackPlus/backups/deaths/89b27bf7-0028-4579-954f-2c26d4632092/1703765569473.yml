@@ -1,0 +1,12 @@
+xp: 76.0
+health: 0.0
+hunger: 16
+saturation: 0.0
+location:
+  world: world
+  x: 15409.5
+  y: 66.0
+  z: -166.1
+logType: DEATH
+version: v1_20_R3
+deathReason: ENTITY_ATTACK (Vindicator)

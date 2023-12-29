@@ -1,0 +1,42 @@
+#Project name
+#abc
+#  Item name
+#  name: "&a限时领取点券"
+#  Item ID
+#  Material: COMPASS
+#  Type: GRATIS (free), PAY (paid)
+#  type: GRATIS
+#  Payment type: POINTS (Bonds), VAULT (gold, game currency)
+#  payType: POINTS
+#  Amount paid
+#  amount: 10
+#  Start time
+#  startTime: "2023-04-29 00:00:00"
+#  End time
+#  endTime: "2023-05-29 00:00:00"
+#  Items displayed in lore
+#  lore:
+#    - "&a规定时间内领取点券"
+#    - "&a规定时间内领取点券"
+#    - "&a规定时间内领取点券"
+#    - "&a规定时间内领取点券"
+#  Execute instruction
+#  command:
+#    - "p give %player_name% 30"
+abc:
+  name: "&aMay Day limited time activities"
+  Material: COMPASS
+  type: GRATIS
+  payType: POINTS
+  amount: 10
+  startTime: "2023-04-29 00:00:00"
+  endTime: "2023-05-03 23:59:59"
+  lore:
+    - "&a for fun to celebrate the arrival of May Day"
+    - ""
+    - "&a So the player is in"
+    - "During the period from 29 to 3 May a4"
+    - "&a Receive 60 points for free"
+    - "a happy May Day to all."
+  command:
+    - "p give %player_name% 60"

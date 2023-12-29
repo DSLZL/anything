@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 182.204.53.75
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1703312371925
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1703313396542
+  login: 1703312957240
+money: '0.0'
+last-account-name: naflago
+lastlocation:
+  world: 65bb9d69-d31f-46f8-8cbb-8c48e677b050
+  world-name: world
+  x: 1288.8441286706538
+  y: 79.31976918946617
+  z: 39.52850759604493
+  yaw: -51.435302734375
+  pitch: 14.549710273742676
+logoutlocation:
+  world: 65bb9d69-d31f-46f8-8cbb-8c48e677b050
+  world-name: world
+  x: 1948.947172904158
+  y: 146.45037543477778
+  z: 2478.541022000517
+  yaw: -120.7342529296875
+  pitch: 22.9497127532959
+nickname: goddamn

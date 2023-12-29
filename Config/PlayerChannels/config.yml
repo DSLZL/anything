@@ -1,0 +1,51 @@
+########################################################
+#
+#         Player Channels
+#   "The ultimate chat solution"
+#
+# Having issues? Contact me on discord @ Perotin#3447
+
+#note most of the configuration comes in menus.yml / messages.yml!
+
+# Should chat colors be allowed throughout the plugin? (chatroom names, player statuses, etc.)
+chat-colors: true
+command-name: "playerchannels"
+
+aliases:
+   - "pc"
+   - "chatrooms"
+   - "channels"
+
+# Subcommand name for disabling messages from global / other chatrooms
+# e.g. /playerchannels listen add <chatroom>
+listen: "listen"
+
+# Subcommand name for creating a chatroom with a command instead of through GUI as it may be more intuitive that way
+# e.g. /playerchannels create <name> <optional: description>
+create: "create"
+
+# Should the tutorial be in place (existance of tutorial)
+enable-tutorial: true
+# Command for cancelling the tutorial
+cancel-tutorial: "cancel"
+cancel-tutorial-aliases:
+   - "canceltut"
+   - "canceltutorial"
+   - "cancelpctutorial"
+
+
+
+saved-material: "OAK_SIGN"
+
+quickchat-prefix: "@"
+
+# If $nickname$ is present, will use the player's chatroom nickname
+# if it exists, other will just use their minecraft name
+# Valid placeholders for this:
+# $role$ - Role in chatroom (e.g. Member, Moderator, Owner, values defined in messages.yml)
+# $chatroom$ - Name of chatroom message is being sent in
+# $nickname$ - Nickname of player in chatroom, if player does not have a nickname or it is disabled will just default to $name$
+# $name$ - Real minecraft name of plaeyer
+
+chatroom-message-format: "&7[&e$chatroom$&7] &e$role$ $nickname$ &7➤ &e$message$"
+

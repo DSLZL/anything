@@ -1,0 +1,41 @@
+tasks:
+  reading:
+    type: "crafting"
+    amount: 10000
+    item: BOOK
+  walking:
+    type: "walking"   
+    distance: 100000000
+    mode: walking
+        
+display:
+  name: "读万卷书，行万里路²"
+  lore-normal:
+    - "&c文明其精神，野蛮其体魄!"
+    - "&7 - 做 &f10000 本书"
+    - "&7 - 行 &f10000² 里路"
+    - ""
+    - "&7奖励:头衔[圣人]"
+  lore-started:
+    - ""
+    - "&7你现在的任务进度:"
+    - "&7 - &f{reading:progress}&7/10000 已制作."
+    - "&7 - &f{walking:progress}&7/100000000 已行走."
+  type: "BOOK"
+
+rewards:
+  - "prefix Sage {player}"
+ 
+options:
+  # This is the category for the quest, it will appear under the "examples" category. Categories can be disabled.
+  category: "Prefixs Quests"
+  # Set if the quest can be repeated after being completed for the first time.
+  repeatable: false
+  # Define the cooldown on quests. The above (repeatable) must be true for this to take effect.
+  cooldown:
+    # If true, players will have to wait between repeating quests.
+    enabled: false
+    # Time (in minutes)
+    time: 1440
+  # This is the relative position in the GUI
+  sort-order: 1

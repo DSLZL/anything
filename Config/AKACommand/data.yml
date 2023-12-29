@@ -1,0 +1,129 @@
+usages:
+  classname: java.util.HashMap
+  entries:
+    entry0:
+      key: /rew
+      value: 1
+    entry1:
+      key: /gamemode survival
+      value: 89
+    entry2:
+      key: /chatrooms
+      value: 2
+    entry3:
+      key: /gamemode creative
+      value: 90
+    entry4:
+      key: //set air
+      value: 1
+    entry5:
+      key: /ig
+      value: 2
+    entry6:
+      key: /summon minecraft:zombie
+      value: 1
+    entry7:
+      key: /grim help
+      value: 1
+    entry8:
+      key: /grim alerts
+      value: 4
+    entry9:
+      key: //q
+      value: 1
+    entry10:
+      key: /a
+      value: 2
+    entry11:
+      key: //replace chipped_anvil air
+      value: 2
+    entry12:
+      key: /lch
+      value: 1
+    entry13:
+      key: /gm
+      value: 1
+    entry14:
+      key: /summon minecraft:giant
+      value: 1
+    entry15:
+      key: /hoe diyu
+      value: 1
+    entry16:
+      key: /an
+      value: 1
+    entry17:
+      key: /gamemode leiling2333
+      value: 1
+    entry18:
+      key: /execute in minecraft:overworld run tp 11421 64.5 207
+      value: 2
+    entry19:
+      key: /re
+      value: 1
+    entry20:
+      key: /gm survival
+      value: 7
+    entry21:
+      key: //replace anvil air
+      value: 9
+    entry22:
+      key: /summon minecraft:arrow ~ ~ ~ [name=lishuling]
+      value: 1
+    entry23:
+      key: /game
+      value: 1
+    entry24:
+      key: /grim stopspectating
+      value: 2
+    entry25:
+      key: /gome
+      value: 1
+    entry26:
+      key: //move 1
+      value: 1
+    entry27:
+      key: /grim spectate lishuoning
+      value: 1
+    entry28:
+      key: /gm creative
+      value: 7
+    entry29:
+      key: /
+      value: 1
+    entry30:
+      key: /rs
+      value: 1
+    entry31:
+      key: /ｔｐ ｌ
+      value: 1
+    entry32:
+      key: //fill air
+      value: 1
+    entry33:
+      key: /summon minecraft:arrow lishuning
+      value: 1
+    entry34:
+      key: /gamemode spectator
+      value: 2
+    entry35:
+      key: /gamemode spectator DSLZL
+      value: 2
+    entry36:
+      key: /grim
+      value: 1
+    entry37:
+      key: /execute in minecraft:the_nether run tp 1735 76.5 -213
+      value: 1
+    entry38:
+      key: /summon minecraft:spectral_arrow
+      value: 1
+    entry39:
+      key: //replace damaged_anvil air
+      value: 1
+    entry40:
+      key: /bp
+      value: 1
+    entry41:
+      key: /gamemode c
+      value: 2

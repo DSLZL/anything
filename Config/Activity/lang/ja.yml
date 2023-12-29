@@ -1,0 +1,29 @@
+player-help:
+  - "&aプラグインヘルプ"
+  - "&a /activity プラグインヘルプ"
+  - "&a /activity open GUIボーナス画面を開く!"
+admin-help:
+  - "&a管理者プラグインのヘルプ"
+  - "&a /activity プラグインヘルプ"
+  - "&a /activity open GUIボーナス画面を開く!"
+  - "&a /activity reload プラグインをリロードする"
+no—time: "&7時間が過ぎたか、まだ時間がありません!"
+no-reward: "&7あなたはすでにそれを主張しました!"
+reload: "&7プラグインが過負荷になっています!"
+gratis: "&7あなたはそれを無料で手に入れます %reward%"
+money: "&7あなたは消費しました  %money% 金貨コレクション %reward%"
+no-money: "&7あなたは十分ではありません %money% 金貨コレクション %reward%"
+points: "&7あなたは消費しました %points% 債券回収 %reward%"
+no-points: "&7あなたは十分ではありません %points% 債券回収 %reward%"
+no-error: "&7設定に誤りがあります。設定を確認してください"
+no-join: "&7あなたはしませんactivity.join権限については、管理者にお問い合わせください。"
+is: '有効'
+no_is: '有効'
+info:
+  - '-----------------------------'
+  - '&eプラグイン名: %plugin_name%'
+  - "&e著者: %author%"
+  - '&eバージョン: %version%'
+  - '&eVault: %is_vault%'
+  - '&ePoints: %is_Points%'
+  - '-----------------------------'

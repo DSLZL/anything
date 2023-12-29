@@ -1,0 +1,89 @@
+quest-progress:
+  example7:
+    started: false
+    started-date: 1703333550700
+    completed: true
+    completed-before: true
+    completion-date: 1703333550700
+    task-progress:
+      building:
+        completed: false
+  example6:
+    started: false
+    started-date: 1703333550650
+    completed: true
+    completed-before: true
+    completion-date: 1703333550650
+    task-progress:
+      building:
+        completed: false
+  example3:
+    started: true
+    started-date: 1703409170316
+    completed: false
+    completed-before: true
+    completion-date: 1703391612450
+    task-progress:
+      mining:
+        completed: false
+      building:
+        completed: false
+  example2:
+    started: false
+    started-date: 1703333715700
+    completed: true
+    completed-before: true
+    completion-date: 1703333715700
+    task-progress:
+      mining:
+        completed: false
+      building:
+        completed: false
+  example1:
+    started: false
+    started-date: 1703333509000
+    completed: true
+    completed-before: true
+    completion-date: 1703333509000
+    task-progress:
+      mining:
+        completed: false
+  example5:
+    started: false
+    started-date: 1703334757700
+    completed: true
+    completed-before: true
+    completion-date: 1703334757700
+    task-progress:
+      building:
+        completed: false
+  example4:
+    started: false
+    started-date: 1703825826543
+    completed: true
+    completed-before: true
+    completion-date: 1703825826543
+    task-progress:
+      mobkilling:
+        completed: false
+  prefix1:
+    started: false
+    started-date: 1703511961322
+    completed: true
+    completed-before: true
+    completion-date: 1703511961322
+    task-progress:
+      mining:
+        completed: false
+  prefix2:
+    started: true
+    started-date: 1703417868015
+    completed: false
+    completed-before: false
+    completion-date: 0
+    task-progress:
+      walking:
+        completed: false
+        progress: 6325
+      reading:
+        completed: false

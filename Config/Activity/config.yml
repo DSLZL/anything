@@ -1,0 +1,74 @@
+
+#前缀
+#prefix
+Prefix: '&6Activity >>'
+
+# Language file
+# By default, the plug-in identifies the system language and automatically selects it. If the user wants to customize the language file, please add a custom name (see for example).
+# Custom language files cannot have the same name as in the lang folder!
+#语言文件
+#默认由插件识别系统语言而自动选择，若用户想自定义语言文件请自行添加自定义名称（看例如）。
+#自定义语言文件不能与lang文件夹下的名称相同！
+#例如：
+# For example:
+#language: ol
+language:
+
+#GUI配置
+#GUI Configuration
+gui:
+  title: '&6Limited time activity'
+  previous: '&ePrevious'
+  next: '&eNext page'
+  page: '&epagination'
+
+#数据储存方式，目前实现MySQL、SQLite、YAML的存储，主意：严格遵守大小写字母。
+# Data storage, the current implementation of MySQL, SQLite, YAML storage, the idea: strictly comply with upper and lower case letters.
+storage-method: YAML
+
+# Database connection information
+data:
+  #连接地址
+  # Connection address
+  address: '127.0.0.1'
+  #端口
+  # Ports
+  port: 3306
+  #数据库名
+  # Database name
+  database: 'mcpay'
+  #数据库用户
+  # Database user
+  username: 'root'
+  #数据库密码
+  # Database Password
+  password: '123456'
+  #MySQL附加属性例如：?useSSL=false,等等。
+  #MySQL additional properties such as:? useSSL=false, and so on.
+  Additional-url: ""
+#连接池操作
+HikariCP:
+  #连接超时时间 默认值：30000（30秒）
+  # Connection timeout Default: 30000 (30 seconds)
+  connectionTimeout: 30000
+  # Minimum number of free connections
+  minimumIdle: 10
+  #池允许达到的最大大小，包括空闲和正在使用的连接
+  # Maximum pool size allowed, including free and active connections
+  maximumPoolSize: 50
+
+#活动菜单配置
+# Activity menu configuration
+item:
+  #是否启用
+  # Whether to enable
+  enable: true
+  #菜单名字
+  # Menu name
+  name: '&6Limited time activity'
+  #菜单物品类型
+  # Menu item type
+  Material: COMPASS
+  lore:
+    - "&4Limited time event!"
+    - "&4Waiting for you to pick it up!"

@@ -1,0 +1,49 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 218.20.32.151
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: false
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1703765978039
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1703769456121
+  login: 1703767632064
+money: '0.75439453125'
+last-account-name: DSLZL
+logoutlocation:
+  world: 65bb9d69-d31f-46f8-8cbb-8c48e677b050
+  world-name: world
+  x: 11414.406553347237
+  y: 65.0
+  z: 209.6318919090656
+  yaw: -136.986083984375
+  pitch: 32.6998176574707
+lastlocation:
+  world: 65bb9d69-d31f-46f8-8cbb-8c48e677b050
+  world-name: world
+  x: 11417.5
+  y: 64.5625
+  z: 208.5
+  yaw: -133.95001220703125
+  pitch: 1.500000238418579
+powertools:
+  stick:
+  - summon zombie
+  wooden_sword:
+  - lightning
+  clock:
+  - troll
+  arrow:
+  - troll execute AirShots lishuoning
+  anvil:
+  - troll execute Anvil lishuoning

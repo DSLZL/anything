@@ -1,0 +1,16 @@
+name: liu_gug
+minutes-played: 32
+daily-rewards:
+  day-num: 1
+  streak-length: 3
+  highest-streak: 3
+  start-date: 28-12-2023
+  collected-dates:
+  - 28-12-2023
+  last-collected-date: 28-12-2023
+daily-playtime-goals:
+  date: 28-12-2023
+  last-collected-playtime: 0
+  previous-day-end: 0
+global-playtime-goals:
+  last-collected-playtime: 0

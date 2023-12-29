@@ -1,0 +1,17 @@
+name: leiling2333
+minutes-played: 1798
+daily-rewards:
+  day-num: 2
+  streak-length: 5
+  highest-streak: 13
+  start-date: 28-12-2023
+  collected-dates:
+  - 29-12-2023
+  - 28-12-2023
+  last-collected-date: 29-12-2023
+daily-playtime-goals:
+  date: 29-12-2023
+  last-collected-playtime: 1728
+  previous-day-end: 1728
+global-playtime-goals:
+  last-collected-playtime: 1455

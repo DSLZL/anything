@@ -1,0 +1,137 @@
+# Do you want to change the plugin settings?
+settings:
+  # Whether the player should receive information about new plugin updates upon joining the server
+  shouldReceivePluginUpdates: true
+  # The duration of combat in seconds
+  combatDuration: "20s"
+  # List of worlds to ignore
+  worldsToIgnore:
+    - "your_world"
+  # List of regions to block
+  blockedRegions:
+    - "your_region"
+  # Set the knock multiplier for the blocked region
+  blockedRegionKnockMultiplier: 1.2
+  # Set the radius of the blocked region if you aren't using WorldGuard basen on default spawn region!
+  blockedRegionRadius: 10
+  # Release attacker after victim dies?
+  shouldReleaseAttacker: true
+  # Combat log notification type, available types: ACTION_BAR, CHAT, TITLE, SUBTITLE
+  notificationType: "ACTION_BAR"
+  # Command blocking mode, available modes: WHITELIST, BLACKLIST
+  commandBlockingMode: "BLACKLIST"
+  # List of commands based on the mode above
+  # Based on BLACKLIST mode, all commands in the list are blocked, and all others are allowed
+  # Based on WHITELIST mode, all commands in the list are allowed, and all others are blocked
+  blockedCommands:
+    - "gamemode"
+    - "spawn"
+    - "tp"
+  # Block the use of elytra?
+  shouldPreventElytraUsage: true
+  # Disable the use of elytra on damage?
+  shouldElytraDisableOnDamage: true
+  # Block the opening of inventory?
+  shouldPreventInventoryOpening: true
+  # Whether to block the placement of blocks?
+  shouldPreventBlockPlacing: true
+  # The minimum Y level at which block placing is blocked
+  minBlockPlacingLevel: 40
+  # Disable placing specific blocks?
+  # If you want to block all blocks, enable shouldPreventBlockPlacing and make this list empty
+  # If you want to disable placing only specific blocks, enable shouldPreventBlockPlacing and add blocks to this list above
+  # If you want to disable this feature completely, disable shouldPreventBlockPlacing option above
+  specificBlocksToPreventPlacing: []
+  # Do You want to enable combat log for non-player causes of damage? - Set to false to disable
+  shouldEnableDamageCauses: false
+  # Select the mode for damage causes, available modes: WHITELIST, BLACKLIST
+  damageCausesMode: "WHITELIST"
+  # After selecting the mode above, select the causes of damage to be logged
+  # You can find a list of all causes here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/event/entity/EntityDamageEvent.DamageCause.html
+  # While using Whitelist mode the player will get a combat log after the damage from the list below
+  # While using Blacklist mode the player will get a combat log after any damage non-listed below
+  damageCausesToLog:
+    - "LAVA"
+    - "CONTACT"
+    - "FIRE"
+    - "FIRE_TICK"
+  # After what type of projectile entity should not tag the player as fighter?
+  # You can find a list of all entity types here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html
+  disabledProjectileEntities:
+    - "ENDER_PEARL"
+
+# Ender pearl settings
+pearl:
+  # Is pearl damage to be enabled?
+  # This will work globally
+  pearlThrowDamageEnabled: true
+  # Set true, If you want to lock pearls during the combat
+  pearlThrowBlocked: false
+  # Block throwing pearls with delay?
+  # If you set this to for example 3s, player will have to wait 3 seconds before throwing another pearl
+  # Set to 0 to disable
+  pearlThrowDelay: "3s"
+  # Message sent when player tries to throw ender pearl, but are disabled
+  pearlThrowBlockedDuringCombat: "&cThrowing ender pearls is prohibited during combat!"
+  # Message sent when player tries to throw ender pearl, but has delay
+  pearlThrowBlockedDelayDuringCombat: "&cYou must wait {TIME} before next throw!"
+
+# Set a custom way for a player's items to drop on death (if in combat)
+dropSettings:
+  # UNCHANGED - The default way of item drop defined by the engine
+  # PERCENT - Drops a fixed percentage of items
+  # PLAYERS_HEALTH - Drops inverted percentage of the player's health (i.e. if the player has, for example, 80% HP, he will drop 20% of items. Only works when the player escapes from combat by quiting game)
+  dropType: "UNCHANGED"
+  # What percentage of items should drop from the player? (Only if Drop Type is set to PERCENT)
+  dropItemPercent: 100
+  # This option is responsible for the lowest percentage of the player that can drop (i.e. if the player leaves the game while he has 100% of his HP, the percentage of items that is set in this option will drop, if you set this option to 0, then nothing will drop from such a player)
+  playersHealthPercentClamp: 20
+  # Does the drop modification affect the experience drop?
+  affectExperience: false
+
+# Do you want to change the plugin messages?
+messages:
+  # Do you want to change the admin messages?
+  admin:
+    # Message sent when the configuration is reloaded
+    reload: "&aConfiguration has been successfully reloaded!"
+    # Message sent when console tries to use a command that is only for players
+    onlyForPlayers: "&cThis command is only available to players!"
+    # Message sent to admin when they tag a player
+    adminTagPlayer: "&7You have tagged &e{PLAYER}"
+    # Message sent when a player is tagged by an admin
+    adminTagMultiplePlayers: "&7You have tagged &e{FIRST_PLAYER}&7 and &e{SECOND_PLAYER}&7."
+    # Message sent to admin when they remove a player from combat
+    adminUntagPlayer: "&7You have removed &e{PLAYER}&7 from the fight."
+    # Message sent when the player is not in combat
+    adminPlayerNotInCombat: "&cThis player is not in combat!"
+    # Message sent when the player is in combat
+    playerInCombat: "&c{PLAYER} is currently in combat!"
+    # Message sent when a player is not in combat
+    playerNotInCombat: "&a{PLAYER} is not currently in combat."
+    # Message sent when an admin tries to tag themselves
+    adminCannotTagSelf: "&cYou cannot tag yourself!"
+  
+  # Combat log message format, e.g. on the actionbar (you can use {TIME} variable to display the time left in combat)
+  combatFormat: "&dCombat ends in: &f{TIME}"
+  # Message sent when the player does not have permission to perform a command
+  noPermission: "&cYou don't have permission to perform this command!"
+  # Message sent when the specified player could not be found
+  playerNotFound: "&cThe specified player could not be found!"
+  # Message sent when the player enters combat
+  playerTagged: "&cYou are in combat, do not leave the server!"
+  # Message sent when the player leaves combat
+  playerUntagged: "&aYou are no longer in combat! You can safely leave the server."
+  # This is broadcast when the player is in combat and logs out
+  playerLoggedOutDuringCombat: "&c{PLAYER} logged off during the fight!"
+  # Message sent when the player is in combat and tries to use a disabled command
+  # you can configure the list of disabled commands in the blockedCommands section of the config.yml file
+  commandDisabledDuringCombat: "&cUsing this command during combat is prohibited!"
+  # Message sent when player tries to use a command with invalid arguments
+  invalidCommandUsage: "&7Correct usage: &e{USAGE}"
+  # Message sent when player tries to open inventory, but the inventory open is blocked
+  inventoryBlockedDuringCombat: "&cYou cannot open this inventory during combat!"
+  # Message sent when player tries to place a block, but the block place is blocked
+  blockPlacingBlockedDuringCombat: "&cYou cannot place below 40Y coordinate during combat!"
+  # Message sent when player tries to enter a region
+  cantEnterOnRegion: "&cYou can't enter on this region during combat!"

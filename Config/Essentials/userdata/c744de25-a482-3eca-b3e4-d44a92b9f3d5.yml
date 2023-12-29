@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 218.20.35.197
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1703663902587
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1703667851073
+  login: 1703665671224
+money: '0.75439453125'
+last-account-name: DSLZL
+lastlocation:
+  world: 65bb9d69-d31f-46f8-8cbb-8c48e677b050
+  world-name: world
+  x: 5206.222804565487
+  y: 68.0
+  z: 240.0944089466163
+  yaw: -99.30001068115234
+  pitch: 6.15001106262207
+geolocation: 广州市, 广东, 中国
+logoutlocation:
+  world: 65bb9d69-d31f-46f8-8cbb-8c48e677b050
+  world-name: world
+  x: 11374.300000011921
+  y: 68.0
+  z: 168.69999998807907
+  yaw: -112.3194580078125
+  pitch: 6.450053691864014

@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 218.20.217.78
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1702804715221
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1702804814096
+  login: 1702803669389
+money: '0.0'
+last-account-name: renfine
+lastlocation:
+  world: 65bb9d69-d31f-46f8-8cbb-8c48e677b050
+  world-name: world
+  x: -1242.3791695797179
+  y: -12.0
+  z: -316.4152835325472
+  yaw: -86.269775390625
+  pitch: 13.49947738647461
+logoutlocation:
+  world: 65bb9d69-d31f-46f8-8cbb-8c48e677b050
+  world-name: world
+  x: -1239.8013106015308
+  y: 69.0
+  z: -343.607965611306
+  yaw: 94.89340209960938
+  pitch: 23.382404327392578
+geolocation: 中国

@@ -1,0 +1,17 @@
+name: Unstable_boron
+minutes-played: 583
+daily-rewards:
+  day-num: 2
+  streak-length: 5
+  highest-streak: 5
+  start-date: 20-12-2023
+  collected-dates:
+  - 21-12-2023
+  - 20-12-2023
+  last-collected-date: 21-12-2023
+daily-playtime-goals:
+  date: 21-12-2023
+  last-collected-playtime: 465
+  previous-day-end: 200
+global-playtime-goals:
+  last-collected-playtime: 0

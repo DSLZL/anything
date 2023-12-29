@@ -1,0 +1,102 @@
+texture: b03f5a9bc719cd1127be0954c73cd5714ecd478dad880ef2b9979c481097e6be
+name: '&aLime LuckyBlock'
+lore:
+- '&7Place me :D'
+eco: true
+shop: true
+price: 250
+animation: true
+animation_type: MOBSPAWNER_FLAMES
+craft:
+  default: true
+  custom: false
+drop:
+  '0':
+  - 'ITEM : MANGROVE_CHEST_BOAT : 1 : 0'
+  '1':
+  - 'ITEM : TNT : 16 : 0'
+  - 'ENTITY : GOAT : 1'
+  '2':
+  - 'LUCKY_BLOCK_ITEM : LIGHT_GRAY : 3'
+  - 'SPECIAL : TNT_COLUMN : 5'
+  '3':
+  - 'ITEM : SNOW_GOLEM_SPAWN_EGG : 31 : 0'
+  - 'ENTITY : IRON_GOLEM : 4'
+  - 'ITEM : BUCKET : 8 : 0'
+  '4':
+  - 'ENTITY : SKELETON_HORSE : 4'
+  '5':
+  - 'LUCKY_BLOCK_ITEM : RANDOM : 2'
+  - 'ENTITY : EVOKER_FANGS : 2'
+  - 'SPECIAL : TNT_EXPLOSION : 20'
+  - 'ITEM : RED_CONCRETE : 32 : 0'
+  '6':
+  - 'LUCKY_BLOCK_ITEM : YELLOW : 4'
+  - 'ENTITY : WARDEN : 4'
+  - 'ENTITY : STRAY : 1'
+  '7':
+  - 'ITEM : WITHER_SKELETON_SKULL : 16 : 0'
+  - 'ENTITY : MINECART_CHEST : 1'
+  - 'SPECIAL : PIG : 4'
+  - 'ENTITY : ITEM_FRAME : 4'
+  '8':
+  - 'ITEM : STRIPPED_DARK_OAK_LOG : 64 : 0'
+  '9':
+  - 'ITEM : GRAY_WOOL : 16 : 0'
+  - 'ITEM : COBBLESTONE_WALL : 64 : 0'
+  '10':
+  - 'ITEM : PINK_CANDLE : 64 : 0'
+  - 'ENTITY : TADPOLE : 3'
+  - 'ITEM : CAVE_SPIDER_SPAWN_EGG : 30 : 0'
+  '11':
+  - 'SPECIAL : TNT_EXPLOSION : 20'
+  - 'ITEM : RAISER_ARMOR_TRIM_SMITHING_TEMPLATE : 44 : 0'
+  '12':
+  - 'ENTITY : WIND_CHARGE : 2'
+  - 'LUCKY_BLOCK_ITEM : PINK : 3'
+  '13':
+  - 'SPECIAL : LIGHTNING : 3'
+  - 'ITEM : ZOMBIE_HORSE_SPAWN_EGG : 33 : 0'
+  - 'ITEM : ORANGE_TERRACOTTA : 64 : 0'
+  '14':
+  - 'ENTITY : CAT : 4'
+  - 'LUCKY_BLOCK_ITEM : BLACK : 4'
+  '15':
+  - 'ITEM : RAISER_ARMOR_TRIM_SMITHING_TEMPLATE : 62 : 0'
+  - 'ITEM : WARPED_WART_BLOCK : 64 : 0'
+  '16':
+  - 'ENTITY : TRIDENT : 2'
+  - 'ITEM : STRIPPED_DARK_OAK_LOG : 8 : 0'
+  '17':
+  - 'ITEM : NETHERITE_SWORD : 1 : 0'
+  - 'SPECIAL : TNT_EXPLOSION : 20'
+  '18':
+  - 'LUCKY_BLOCK_ITEM : LIME : 1'
+  '19':
+  - 'SPECIAL : PIG : 12'
+  - 'ENTITY : ITEM_FRAME : 3'
+  '20':
+  - 'ITEM : SPRUCE_LEAVES : 32 : 0'
+  '21':
+  - 'LUCKY_BLOCK_ITEM : RED : 3'
+  - 'ITEM : DARK_OAK_LOG : 8 : 0'
+  '22':
+  - 'ENTITY : CAT : 1'
+  - 'ITEM : STONE : 64 : 0'
+  '23':
+  - 'LUCKY_BLOCK_ITEM : YELLOW : 3'
+  - 'SPECIAL : EXPERIENCE_EXPLOSION : 45'
+  - 'LUCKY_BLOCK_ITEM : RED : 1'
+  '24':
+  - 'ITEM : LIGHT_BLUE_STAINED_GLASS_PANE : 32 : 0'
+  - 'ITEM : BLACK_BANNER : 16 : 0'
+  '25':
+  - 'LUCKY_BLOCK_ITEM : GRAY : 4'
+  - 'ITEM : TADPOLE_BUCKET : 1 : 0'
+  '26':
+  - 'ENTITY : GLOW_SQUID : 2'
+  '27':
+  - 'ITEM : INFESTED_STONE : 8 : 0'
+  - 'SPECIAL : TNT_EXPLOSION : 20'
+  - 'ENTITY : ARROW : 1'
+  - 'ITEM : TUFF_SLAB : 16 : 0'

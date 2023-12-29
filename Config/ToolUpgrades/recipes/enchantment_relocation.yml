@@ -1,0 +1,12 @@
+upgrade: enchantment_relocation
+recipeType: SHAPED
+ingredients:
+  '0': AMETHYST_SHARD
+  '1': HOPPER
+  '2': AMETHYST_SHARD
+  '3': HOPPER
+  '4': BOOK
+  '5': HOPPER
+  '6': AMETHYST_SHARD
+  '7': HOPPER
+  '8': AMETHYST_SHARD

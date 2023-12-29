@@ -1,0 +1,12 @@
+upgrade: multi_miner
+recipeType: SHAPED
+ingredients:
+  '0': DEEPSLATE
+  '1': COBBLESTONE
+  '2': DEEPSLATE
+  '3': COBBLESTONE
+  '4': NETHERITE_INGOT
+  '5': COBBLESTONE
+  '6': DEEPSLATE
+  '7': COBBLESTONE
+  '8': DEEPSLATE

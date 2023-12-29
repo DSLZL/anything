@@ -1,0 +1,12 @@
+upgrade: silky
+recipeType: SHAPED
+ingredients:
+  '0': WHITE_WOOL
+  '1': STRING
+  '2': WHITE_WOOL
+  '3': STRING
+  '4': NETHER_STAR
+  '5': STRING
+  '6': WHITE_WOOL
+  '7': STRING
+  '8': WHITE_WOOL

@@ -1,0 +1,12 @@
+upgrade: soft_fall
+recipeType: SHAPED
+ingredients:
+  '0': POWDER_SNOW_BUCKET
+  '1': FEATHER
+  '2': POWDER_SNOW_BUCKET
+  '3': FEATHER
+  '4': DIAMOND_BOOTS
+  '5': FEATHER
+  '6': POWDER_SNOW_BUCKET
+  '7': FEATHER
+  '8': POWDER_SNOW_BUCKET

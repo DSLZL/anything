@@ -1,0 +1,152 @@
+texture: 6cfb4ebc3ba4fec04d8978a1660bb7c98e96342ff2a238ada9df2f74bf032b40
+name: '&5Purple LuckyBlock'
+lore:
+- '&7Place me :D'
+eco: true
+shop: true
+price: 250
+animation: true
+animation_type: MOBSPAWNER_FLAMES
+craft:
+  default: true
+  custom: false
+drop:
+  '0':
+  - 'ENTITY : PRIMED_TNT : 2'
+  - 'ENTITY : ITEM_DISPLAY : 4'
+  - 'ITEM : ORANGE_TULIP : 8 : 0'
+  '1':
+  - 'ENTITY : WOLF : 4'
+  '2':
+  - 'ITEM : CROSSBOW : 1 : 0'
+  '3':
+  - 'ITEM : IRON_BOOTS : 1 : 0'
+  - 'ITEM : PRISMARINE_CRYSTALS : 49 : 0'
+  - 'ENTITY : ENDER_CRYSTAL : 1'
+  '4':
+  - 'ITEM : LEVER : 64 : 0'
+  - 'ITEM : CYAN_STAINED_GLASS_PANE : 8 : 0'
+  '5':
+  - 'ITEM : LIGHT_BLUE_CANDLE : 8 : 0'
+  '6':
+  - 'ENTITY : STRAY : 2'
+  - 'ITEM : WHITE_WOOL : 64 : 0'
+  - 'ENTITY : PIG : 1'
+  '7':
+  - 'ITEM : NETHERITE_SWORD : 1 : 0'
+  - 'ITEM : IRON_GOLEM_SPAWN_EGG : 22 : 0'
+  '8':
+  - 'ITEM : JUNGLE_SLAB : 64 : 0'
+  '9':
+  - 'ITEM : MAGENTA_STAINED_GLASS : 64 : 0'
+  - 'ENTITY : OCELOT : 1'
+  - 'ITEM : SUSPICIOUS_GRAVEL : 16 : 0'
+  '10':
+  - 'ENTITY : ZOMBIE_HORSE : 4'
+  - 'ITEM : MUSIC_DISC_STAL : 1 : 0'
+  '11':
+  - 'ENTITY : MUSHROOM_COW : 2'
+  - 'ITEM : SPRUCE_SIGN : 8 : 0'
+  '12':
+  - 'ITEM : HONEY_BOTTLE : 9 : 0'
+  - 'ITEM : LIGHT_WEIGHTED_PRESSURE_PLATE : 64 : 0'
+  '13':
+  - 'ITEM : PAPER : 44 : 0'
+  - 'LUCKY_BLOCK_ITEM : MAGENTA : 2'
+  '14':
+  - 'LUCKY_BLOCK_ITEM : GREEN : 1'
+  - 'LUCKY_BLOCK_ITEM : YELLOW : 2'
+  - 'ENTITY : SNOWMAN : 2'
+  - 'ITEM : FLETCHING_TABLE : 16 : 0'
+  '15':
+  - 'ENTITY : TADPOLE : 3'
+  '16':
+  - 'ITEM : OCELOT_SPAWN_EGG : 25 : 0'
+  - 'ITEM : SCULK_CATALYST : 16 : 0'
+  '17':
+  - 'ITEM : POLISHED_BLACKSTONE : 64 : 0'
+  '18':
+  - 'ENTITY : SNOWBALL : 2'
+  '19':
+  - 'ENTITY : WIND_CHARGE : 3'
+  - 'ENTITY : LLAMA : 4'
+  - 'ITEM : WEATHERED_COPPER_DOOR : 64 : 0'
+  '20':
+  - 'ITEM : CHISELED_BOOKSHELF : 8 : 0'
+  - 'ITEM : GLOBE_BANNER_PATTERN : 1 : 0'
+  - 'ITEM : CACTUS : 16 : 0'
+  '21':
+  - 'SPECIAL : LIGHTNING : 3'
+  '22':
+  - 'ITEM : PURPLE_CANDLE : 64 : 0'
+  - 'ITEM : LIME_GLAZED_TERRACOTTA : 8 : 0'
+  - 'LUCKY_BLOCK_ITEM : WHITE : 3'
+  '23':
+  - 'ITEM : LIGHT_BLUE_GLAZED_TERRACOTTA : 64 : 0'
+  - 'ENTITY : OCELOT : 1'
+  '24':
+  - 'ITEM : TURTLE_HELMET : 1 : 0'
+  - 'ITEM : OXEYE_DAISY : 16 : 0'
+  - 'ENTITY : MINECART_MOB_SPAWNER : 2'
+  '25':
+  - 'ENTITY : DONKEY : 1'
+  - 'SPECIAL : LIGHTNING : 3'
+  - 'ENTITY : ENDER_CRYSTAL : 3'
+  '26':
+  - 'ITEM : PIG_SPAWN_EGG : 51 : 0'
+  - 'ITEM : MANGROVE_LOG : 64 : 0'
+  '27':
+  - 'ENTITY : MINECART_TNT : 2'
+  - 'ENTITY : GLOW_ITEM_FRAME : 2'
+  '28':
+  - 'ITEM : CARROT_ON_A_STICK : 1 : 0'
+  - 'ITEM : PRISMARINE_BRICK_SLAB : 32 : 0'
+  '29':
+  - 'ITEM : RIB_ARMOR_TRIM_SMITHING_TEMPLATE : 51 : 0'
+  '30':
+  - 'ITEM : PEARLESCENT_FROGLIGHT : 32 : 0'
+  - 'LUCKY_BLOCK_ITEM : PURPLE : 1'
+  '31':
+  - 'ENTITY : MARKER : 2'
+  - 'ENTITY : MULE : 4'
+  - 'ITEM : WITHER_SPAWN_EGG : 45 : 0'
+  '32':
+  - 'ITEM : NAUTILUS_SHELL : 14 : 0'
+  - 'ITEM : BASALT : 16 : 0'
+  - 'ITEM : STRIPPED_DARK_OAK_WOOD : 32 : 0'
+  '33':
+  - 'ENTITY : AXOLOTL : 3'
+  - 'LUCKY_BLOCK_ITEM : PURPLE : 4'
+  '34':
+  - 'ENTITY : MINECART_TNT : 2'
+  - 'SPECIAL : WATER_BUCKET : 64'
+  '35':
+  - 'ITEM : PINK_STAINED_GLASS : 64 : 0'
+  - 'ITEM : OCELOT_SPAWN_EGG : 52 : 0'
+  - 'ENTITY : ARMOR_STAND : 2'
+  '36':
+  - 'ITEM : MANGROVE_TRAPDOOR : 16 : 0'
+  '37':
+  - 'ENTITY : SKELETON : 1'
+  - 'ITEM : MAGENTA_BANNER : 16 : 0'
+  '38':
+  - 'SPECIAL : LIGHTNING : 3'
+  '39':
+  - 'ENTITY : SKELETON_HORSE : 2'
+  - 'ITEM : BROWN_CANDLE : 64 : 0'
+  - 'ENTITY : ENDER_CRYSTAL : 3'
+  '40':
+  - 'LUCKY_BLOCK_ITEM : GREEN : 3'
+  - 'LUCKY_BLOCK_ITEM : RANDOM : 2'
+  - 'ITEM : HONEY_BOTTLE : 6 : 0'
+  '41':
+  - 'SPECIAL : EXPERIENCE_EXPLOSION : 45'
+  - 'ENTITY : ENDERMITE : 3'
+  '42':
+  - 'ITEM : MELON_SLICE : 29 : 0'
+  '43':
+  - 'ENTITY : SKELETON : 2'
+  '44':
+  - 'ENTITY : SNIFFER : 4'
+  - 'ITEM : MANGROVE_PRESSURE_PLATE : 64 : 0'
+  - 'ITEM : BONE_BLOCK : 32 : 0'

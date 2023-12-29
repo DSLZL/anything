@@ -1,0 +1,26 @@
+# PluginVersions configuration
+# Both legacy and MiniMessage format codes are supported.
+# See https://github.com/SlimeDog/SlimeDogCore/wiki/Formatting-Codes.
+#
+# To regenerate the default file content, delete the file and run:
+#		/pv reload
+#
+
+# By default, the plugin collects and transmits anonymous statistics to bstats.org.
+# Data collection may be disabled here, or generally in the bStats/config.yml.
+#
+enable-metrics: true
+
+# Check for updates.
+#
+check-for-updates: true
+# Update source may be either Hangar (default) or SpigotMC.
+update-source: Hangar
+
+# When executed at the console,
+# {spacing} will enable tabular output (in-game does not support tabular output).
+# To disable tabular output at the console, replace "{spacing}" with " " in the format strings.
+#
+page-header-format: "PluginVersions ===== page {page} ====="
+enabled-version-format: " - &a{name}{spacing}&e{version}"
+disabled-version-format: " - &c{name}{spacing}&e{version}"

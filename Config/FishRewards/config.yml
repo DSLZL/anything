@@ -1,0 +1,7 @@
+enable-plugin-prefix: true
+plugin-prefix: §9§l[§aFishRewards§9] §b
+caught-fish-message: '你钓到了 [pack] '
+open-pack-message: 你打开了 [pack]
+not-enough-space: 你没有足够的空间!
+checkupdate: true
+op-notificate: true
